@@ -1,24 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+{{>head}}
 
-<head>
-    <link rel="icon" href="https://gdurl.com/N5Lb">
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{title}}</title>
-</head>
 
 <body>
-    <div class="main-content">
 
-        {{>header}}
-    <img class="portrait" src="https://i.pinimg.com/originals/ed/1b/cb/ed1bcb4cdb1898d6d359cda725927080.jpg" alt="">
-   
+
+    {{>header}}
+
+  <div id="wrapper">
+        <section>
+            <img class="photo-profile" src="https://gdurl.com/fXjW" alt="author's avatar">
+            <h3>About</h3>
+            <p>Hi, I'm Tuan Phan! I am a JavaScript developer. I like to build things.</p>
+            <p>I care about maintenance and scalability in web development.
+            </p>
+            <p>I am currently in half way of thesis. I am seeking for an intership/trainee/job around Helsinki.</p>
+            <hr>
+            <p>When I have free time, I play sports and guide some newbies how to code.</p>
+            <embed src="https://gdurl.com/kb34" width="800px" height="1100px" />
+        </section>
+
+        <footer>
+            <a href="http://github.com/tuanphanfi">
+                <img src="https://drive.google.com/file/d/1i5GLLykMA8ibCRDtkQJNLNVMdlmVweGs/view?usp=sharing"
+                    alt="Github Logo" class="social-icon">
+            </a>
+            <a href="http://teamtreehouse.com/tuanphanfi">
+                <img src="img/teamtreehouse-logo.png" alt="Teamtreehouse Logo" class="social-icon">
+            </a>
+            <p>&copy; 2018 Tuan Phan.</p>
+        </footer>
+
+
+
+
     </div>
+    {{>footer}}
 
-        {{>footer}}
-   </body>
+    {{>script}}
+
+</body>
 
 </html>

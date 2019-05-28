@@ -1,12 +1,42 @@
-{{>head}}
 
 
 <body>
 
+    <header>
+        <section id="contact">
+            <a href="home.html">
+                <h1>&Tscr;uan &Pscr;han </h1>
+            </a>
+            <!-- &lt; &amp; &gt;  -->
+            <h2>Self-learner: Front-End </h2>
 
-    {{>header}}
+        </section>
 
- <div id="wrapper">
+
+        <nav>
+            <ul>
+                <a href="home.html" class="selected">
+                    <li>Projects</li>
+                </a>
+
+                <a href="skills.html">
+                    <li>Skills</li>
+                </a>
+
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="wrapper">
         <h1>Hobbies Projects</h1>
         <section>
             <ul id="gallery">
@@ -95,10 +125,24 @@
             </ul>
         </section>
 
-    {{>footer}}
+        <footer>
+            <a href="http://github.com/tuanphanfi">
+                <img src="https://gdurl.com/yxT0"
+                    alt="Github Logo" class="social-icon">
+            </a>
+            <a href="http://teamtreehouse.com/tuanphanfi">
+                <img src="https://gdurl.com/eMnG" alt="Teamtreehouse Logo" class="social-icon">
+            </a>
+            <p>&copy; 2018 Tuan Phan.</p>
+        </footer>
 
-    {{>script}}
 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

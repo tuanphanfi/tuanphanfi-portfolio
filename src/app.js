@@ -33,10 +33,13 @@ app.get('', (req, res) => {
 })
 
 
-app.get('/weather', (req, res) => {
-    res.render('index', {
-        forecast: 'It is snowing',
-        location: 'Philadelphia'
+app.get('/skills', (req, res) => {
+    res.render('skills', {
+    })
+})
+
+app.get('/contact', (req, res) => {
+    res.render('contact', {
     })
     console.log('At weather')
 })
@@ -50,13 +53,6 @@ app.get('/about', (req, res) => {
     console.log('At About')
 })
 
-app.get('/help', (req, res) => {
-    res.render('help', {
-        helpText: 'Something useful',
-        title: 'Help',
-        name: 'Tuan Phan'
-    })
-})
 
 
 app.get('/help/*', (req,res)=>{
