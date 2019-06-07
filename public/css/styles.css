@@ -36,6 +36,9 @@ header {
   width: 100%;
   background: #2d3339; }
 
+.portfolio-title {
+  color: #6f7ade; }
+
 #contact {
   text-align: center;
   margin: 0; }
