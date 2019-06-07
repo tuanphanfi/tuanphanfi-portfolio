@@ -224,12 +224,18 @@ body {
     TWO COLUMN LAYOUT
     ***********************************/
     #primary {
-      width: 50%;
-      float: left;
+      // width: 20%;
+      // height: 100px;
+      display: inline;
+      // float: left;
     }
     #secondary {
-      width: 40%;
-      float: right;
+      // width:20%;
+
+      // height: 200px;
+      margin: 0 25%;
+      // display: inline;
+      // float: right;
     }
     /************
     PAGE PORTFOLIO

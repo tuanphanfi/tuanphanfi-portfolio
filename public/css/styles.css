@@ -179,12 +179,10 @@ RESPONSIVE WEBSITE
   TWO COLUMN LAYOUT
   ***********************************/
   #primary {
-    width: 50%;
-    float: left; }
+    display: inline; }
 
   #secondary {
-    width: 40%;
-    float: right; }
+    margin: 0 25%; }
 
   /************
   PAGE PORTFOLIO
