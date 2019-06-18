@@ -26,7 +26,6 @@ app.use('/',express.static('public'));
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather App',
         name: 'Tuan Phan'
     })
     console.log('At home')
@@ -41,7 +40,6 @@ app.get('/skills', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('contact', {
     })
-    console.log('At weather')
 })
 
 
