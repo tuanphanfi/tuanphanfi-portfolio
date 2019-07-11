@@ -1,0 +1,73 @@
+/************************************
+  PORTFOLIO - PROJECTS 
+  *************************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    h1 {
+      color: rgb(20, 102, 255);
+      margin: 15px 0;
+      padding: 15px 0 0 0;
+      font-size: 1.75em;
+      line-height: 0.8em;
+    }
+    display: block;
+    width: 45.5%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    text-align: center;
+    position: relative;
+    &:hover .skills-set {
+      // opacity: 1;
+      // height: auto;
+      width: 100%;
+      right: -100%;
+    }
+
+    .skills-set {
+      // position: absolute;
+      // width: 100%;
+      // // bottom: -10px;
+      // z-index: 1;
+      // padding: 2px;
+      // background-color: rgba(141, 131, 92, 0.9);
+      // transition: opacity 1s ease-out;
+      // opacity: 0;
+      // height: 0;
+      // overflow: hidden;
+      border-left: 3px solid lightcyan;
+      position: absolute;
+      bottom: 0;
+      right: 00%;
+      background-color: #f5f5f5;
+      overflow: hidden;
+      width: 0%;
+      height: 100%;
+      transition: 0.5s ease;
+      h2 {
+        color: magenta;
+        margin: 10px;
+      }
+    }
+
+    a {
+      display: inline-block;
+      &:hover {
+        opacity: 0.9;
+        p {
+          color: tomato;
+        }
+      }
+      p {
+        margin: 0;
+        padding: 5%;
+        color: #137ee9;
+        font-weight: 900;
+      }
+    }
+  }
+} //wth is this //do not delete it. 05/07/2019
