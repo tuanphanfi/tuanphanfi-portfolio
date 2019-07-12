@@ -19,14 +19,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: 200px;
-  /* tu che...Without this one, those imgs 
-              goes messy cause of theirs diffence heights */
-  /* 05/09 * error fixed by using nth-child(4n){clear: left}*/
-}
-
 h3 {
   margin: 0 0 1em 0;
 }
