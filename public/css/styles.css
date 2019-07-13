@@ -173,11 +173,8 @@ footer {
 }
 
 /**********************************
-COLORS...maybe not
-***********************************/
-/**********************************
-PAGE: ABOUT PAGE
-***********************************/
+  PAGE: ABOUT PAGE
+  ***********************************/
 .photo-profile {
   display: block;
   max-width: 150px;
@@ -186,9 +183,39 @@ PAGE: ABOUT PAGE
   border-radius: 100%;
 }
 
+.about-skills-set {
+  display: block;
+  margin: 108px 0 0 0;
+}
+.about-skills-set ul li {
+  display: inline-block;
+  list-style: none;
+  background-color: lightgray;
+  padding: 6px;
+  margin: 3px 0;
+  border-radius: 10%;
+}
+
+.about-one-line {
+  border: 12px solid black;
+  height: 50%;
+  clear: both;
+  padding: 80px;
+}
+
+.about-CV h1 {
+  color: blue;
+}
+.about-CV h2 {
+  color: gray;
+}
+
 /**********************************
-PAGE: CONTACT
-***********************************/
+  COLORS...maybe not
+  ***********************************/
+/**********************************
+  PAGE: CONTACT
+  ***********************************/
 .contact-info {
   list-style: none;
   padding: 0;
@@ -217,12 +244,12 @@ PAGE: CONTACT
 }
 
 /**********************************
-RESPONSIVE WEBSITE
-***********************************/
+  RESPONSIVE WEBSITE
+  ***********************************/
 @media screen and (min-width: 480px) {
   /**********************************
-  TWO COLUMN LAYOUT
-  ***********************************/
+    TWO COLUMN LAYOUT
+    ***********************************/
   #primary {
     display: inline;
   }
@@ -232,8 +259,8 @@ RESPONSIVE WEBSITE
   }
 
   /************
-  PAGE PORTFOLIO
-  *************/
+    PAGE PORTFOLIO
+    *************/
   #gallery li {
     width: 44.333%;
   }
@@ -248,8 +275,8 @@ RESPONSIVE WEBSITE
 }
 @media screen and (min-width: 660px) {
   /************
-  HEADER
-  *************/
+    HEADER
+    *************/
   nav {
     background: none;
     float: right;
